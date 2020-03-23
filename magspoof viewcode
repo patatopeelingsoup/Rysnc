@@ -237,9 +237,6 @@ int main(void)
   }
 }
 
-
-Makefile<><><><>
-
 MCU=attiny85
 AVRDUDEMCU=t85
 CPU_SPEED=-DF_CPU=8000000UL
@@ -273,19 +270,13 @@ firstprog: fuse install
 clean :
 	rm -f *.hex *.obj *.o
 
-+××+
-
-
-Readme<><><><>
-
-Skip to content
-
- RyscCorp / magspoof_r3
+#
+#
+# RyscCorp / magspoof_r3
 Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-Read the guide
-
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull req
+#
+#
 Code Issues 2 Pull requests 1 Projects 0 Actions Wiki Security Pulse Community
 Branch: master 
 Find fileCopy path
@@ -459,23 +450,7 @@ bash-3.2$ make test
 4. Push button on magspoof
 %B4444444444444444^ABE/LINCOLN^291110100000931?;4444444444444444=29111010000093100000?+4444444444444444=29111010000093100000?
 PASS
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-
-
-+×××
-
-
+#
 #! /bin/bash
 
 TRACK_DATA="%B4444444444444444^ABE/LINCOLN^291110100000931?;4444444444444444=29111010000093100000?+4444444444444444=29111010000093100000?"
@@ -489,85 +464,3 @@ if [ "$TRACK" == $TRACK_DATA ]; then
   echo PASS
   exit 0
 fi
-
-echo FAIL
-exit 1
-
-
-+×××
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
